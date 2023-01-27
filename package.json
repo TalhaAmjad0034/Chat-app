@@ -1,0 +1,13 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Talha <73413298+TalhaAmjad0034@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "cd server && yarn start",
+    "client": "cd client && yarn dev",
+    "watch": "cd server && yarn start & cd client && yarn dev",
+    "install": "cd server && yarn install & cd client && yarn install"
+  }
+}
